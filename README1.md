@@ -81,7 +81,7 @@ The circuit consists of an Arduino Uno connected to two CD4511 decoders and two 
 
 Add a screenshot of your Tinkercad circuit to the `images` folder and name it `circuit_setup.png`.
 
-![Circuit Setup](images/circuit_setup.png)
+<img width="1536" height="728" alt="0-30 counter" src="https://github.com/user-attachments/assets/c32e647e-d31c-4bab-83e4-65b1991931cb" />
 
 
 ## How the Project Works
@@ -141,7 +141,7 @@ When the counter reaches 30, the `for` loop finishes. The Arduino repeats the `l
 
 Each number is displayed for approximately one second.
 G.Sree Sandeep tinkercad link:-https://www.tinkercad.com/things/9WM6myw4sp9-0-30-counter-using-7-segment-displaysassignment3/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits
-<img width="1536" height="728" alt="0-30 counter" src="https://github.com/user-attachments/assets/c32e647e-d31c-4bab-83e4-65b1991931cb" />
+
 
 
 
