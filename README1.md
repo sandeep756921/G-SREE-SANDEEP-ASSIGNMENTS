@@ -142,27 +142,3 @@ When the counter reaches 30, the `for` loop finishes. The Arduino repeats the `l
 
 Each number is displayed for approximately one second.
 
-## How to Run the Project in Tinkercad
-
-1. Open Tinkercad Circuits.
-2. Create a new circuit.
-3. Add an Arduino Uno R3, two CD4511 decoder ICs, two common-cathode 7-segment displays, resistors, and a breadboard.
-4. Connect the power and ground rails.
-5. Connect the decoder control pins.
-6. Connect the Arduino BCD output pins to the decoder inputs.
-7. Connect the decoder outputs to the corresponding display segments.
-8. Connect the common cathodes and current-limiting resistors.
-9. Open the **Code** panel.
-10. Select **Text** mode.
-11. Paste the Arduino code provided above.
-12. Click **Start Simulation**.
-13. Observe the counter displaying values from 00 to 30.
-
-## Troubleshooting
-
-| Problem | Possible Solution |
-|---|---|
-| Display is blank | Check 5V, GND, LT, and BI connections. |
-| Display does not change | Check that LE (pin 5) is connected to GND. |
-| Incorrect digits appear | Check the BCD input order and Arduino connections. |
-| Segments display incorrectly | Confirm the display is common-cathode and the segment
